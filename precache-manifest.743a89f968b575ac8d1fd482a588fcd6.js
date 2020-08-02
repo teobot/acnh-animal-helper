@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "504a8bfd28f1b8fafd25855fea86d3b7",
+    "revision": "2562a4f29ef8b3cddcc4ff4e7d430d55",
     "url": "/acnh-animal-helper/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acnh-animal-helper/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "2bcc2f732e6c79dacf6b",
+    "revision": "8ba78b36045061137c7c",
     "url": "/acnh-animal-helper/static/css/main.d4774912.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acnh-animal-helper/static/js/2.d34e9b57.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2bcc2f732e6c79dacf6b",
-    "url": "/acnh-animal-helper/static/js/main.5451ec3e.chunk.js"
+    "revision": "8ba78b36045061137c7c",
+    "url": "/acnh-animal-helper/static/js/main.613cd18b.chunk.js"
   },
   {
     "revision": "73bff028a205f0a54866",
