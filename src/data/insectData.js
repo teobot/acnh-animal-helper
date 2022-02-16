@@ -1,4 +1,4 @@
-var insectData = [
+let insectData = [
   {
     key: 1991,
     img: "insects/NH-Icon-commonbutterfly.png",

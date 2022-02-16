@@ -1,4 +1,4 @@
-var fishData = [
+let fishData = [
   {
     key: 2011,
     img: "fish/Pale_Chub_ACNH.png",
