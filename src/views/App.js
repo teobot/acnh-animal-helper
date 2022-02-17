@@ -60,7 +60,11 @@ export default function App() {
 
   return (
     <div className="App">
-      <Menu inverted style={{ borderRadius: 0, marginBottom: 0 }} size="small">
+      <Menu
+        inverted
+        style={{ borderRadius: 0, marginBottom: 0, position: "relative" }}
+        size="small"
+      >
         <Menu.Menu position="left">
           <Dropdown item icon="wrench" simple>
             <Dropdown.Menu>
@@ -107,7 +111,7 @@ export default function App() {
           </Dropdown>
         </Menu.Menu>
       </Menu>
-      <Container>
+      <div style={{ overflowY: "auto", height: "100%", padding: "0px 25px 35px 25px" }}>
         {display_array.map((item) => (
           <Segment vertical>
             <Segment basic>
@@ -128,7 +132,7 @@ export default function App() {
             </Segment>
           </Segment>
         ))}
-      </Container>
+      </div>
     </div>
   );
 }

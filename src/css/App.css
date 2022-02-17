@@ -1,8 +1,17 @@
 html,
-body {
+body,
+#root,
+.App {
   height: 100vh !important;
   width: 100vw !important;
-  overflow: hidden;
+  max-height: 100vh !important;
+  max-width: 100vw !important;
+  min-height: 100vh !important;
+  min-width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+  overflow-y: hidden;
 }
 
 .item-container {
@@ -12,18 +21,13 @@ body {
   padding: 0px 10px;
   height: 100px;
 }
+
 .items-div {
   display: flex;
   justify-content: center;
 }
 
-.items-div > button {
+.items-div>button {
   margin: 2px 5px;
   text-align: center;
-}
-
-@media only screen and (max-width: 400px) {
-  .navbar {
-    display: list-item !important;
-  }
 }
