@@ -2,7 +2,7 @@ html,
 body {
   height: 100vh !important;
   width: 100vw !important;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .item-container {
